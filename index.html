@@ -3,10 +3,169 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header>
+      <div class="main_header">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" width="#" height="#" alt="Логотип"></a>
+        </div>
+        <div class="user_block">
+          <form action="#" method="get"><input type="text" name="search" value="поиск">
+          </form>
+          <div class="buy_menu">
+            <ul>
+              <li><a href="#">Войти</a></li> 
+              <li><a href="#">Сравнить</a></li>
+              <li><a href="#">Корзина</a></li>
+            </ul>
+          </div>
+          <div class="main_menu">
+            <ul>
+              <li><a href="#">Каталог товаров</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Гарантия</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="wrap_slider">
+        <ul class="slider">
+          <li>слайд1</li>
+          <li>слайд2</li>
+          <li>слайд3</li>
+          <li>слайд4</li>
+        </ul>
+      </div>
+      <section class="features">
+        <div class="feature_item">
+          <img src="#" width="#" height="#">
+          <b class="feature_name">Виртуальная реальность</b>
+        </div>
+        <div class="feature_item">
+          <img src="#" width="#" height="#">
+          <b class="feature_name">Моноподы дляя селфи</b>
+        </div>
+        <div class="feature_item">
+          <img src="#" width="#" height="#">
+          <b class="feature_name">Экшн-камеры</b>
+        </div>
+        <div class="feature_item">
+          <img src="#" width="#" height="#">
+          <b class="feature_name">Фитнес браслеты</b>
+        </div>
+        <div class="feature_item">
+          <img src="#" width="#" height="#">
+          <b class="feature_name">Умные часы</b>
+        </div>
+        <div class="feature_item">
+          <img src="#" width="#" height="#">
+          <b class="feature_name">Квадрокоптеры</b>
+        </div>
+      </section>
+      <div>
+        <ul class="menu_service">
+          <li><a href="1">Доставка</a></li>
+          <li><a href="2">Гарантия</a></li>
+          <li><a href="3">Кредит</a></li>
+        </ul>
+        <div class="services">
+          <div class="service_slider" id="1">
+            <img src="#" width="#" height="#">
+            <h2>Доставка</h2>
+            <p></p>
+          </div>
+          <div class="service_slider" id="2">
+            <img src="#" width="#" height="#">
+            <h2>Гарантия</h2>
+            <p></p>
+          </div>
+          <div class="service_slider" id="3">
+            <img src="#" width="#" height="#">
+            <h2>Кредит</h2>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="sponsor">
+        <div>
+          <a href="#"><img src="#" width="#" height="#" alt="Спонсор_1"></a>
+        </div>
+        <div>
+          <a href="#"><img src="#" width="#" height="#" alt="Спонсор_1"></a>
+        </div>
+        <div>
+          <a href="#"><img src="#" width="#" height="#" alt="Спонсор_1"></a>
+        </div>
+      </div>
+      <div>
+        <div class="about_us">
+          <h2></h2>
+          <p></p>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <div>
+            <a href="#">Подробней о нас</a>
+          </div>
+        </div>
+        <div class="map">
+          <h2></h2>
+          <p></p>
+          <img src="#" width="#" height="#" alt="карта">
+          <div>
+            <a href="#">Напишите нам</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="logo">
+        <a href="#"><img src="img/logo.png" width="#" height="#" alt="Логотип"></a>
+        <p>г. Москва, ул. Стротелей, 15</p>
+      </div>
+      <div class="user_block">
+        <div class="buy_menu">
+            <ul>
+              <li><a href="#">Войти</a></li> 
+              <li><a href="#">Сравнить</a></li>
+              <li><a href="#">Корзина</a></li>
+            </ul>
+          </div>
+          <div class="main_menu">
+            <ul>
+              <li><a href="#">Каталог товаров</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Гарантия</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <p>телефон</p>
+          <div class="social">
+            <ul>
+              <li class="icon_twitter">
+                  <a href="#"><img src="img/logo.png" width="#" height="#" alt="Логотип"></a>
+              </li>
+              <li class="icon_twitter">
+                  <a href="#"><img src="img/logo.png" width="#" height="#" alt="Логотип"></a>
+              </li>
+              <li class="icon_twitter">
+                  <a href="#"><img src="img/logo.png" width="#" height="#" alt="Логотип"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="website_by">
+            <img src="#" width="#" height="#" alt="htmlacademy">
+          </div>
+        </div>
+    </footer>
+    <script type="text/jscript" src="js/jscript.js"></script>
+    <script type="text/jscript" src="js/jquery.bxslider.min.js"></script>
   </body>
 </html>
